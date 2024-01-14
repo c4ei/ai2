@@ -7,7 +7,7 @@ slug: /available-providers-and-models/
 # Using the API to get the list of available providers and models.
 Consider that, despite the fact that the `GPT4FREE` python library is used within the backend, the latter's providers are different from those offered by Lovelace. You can obtain the list of available providers using the API, where you will obtain information such as the models that it allows to use, the web address where the service is hosted and the name that must be specified when interacting with the AI ​​as you have seen in the examples. previous (API, WS).
 
-The response you should get from `https://lovelace-backend.codewithrodi.com/api/v1/chat/providers/` should be:
+The response you should get from `https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/` should be:
 ```json
 {
    "Status":"Success",
@@ -63,11 +63,11 @@ For the following example, we'll use Axios within NodeJS, which you can install 
 const Axios = require('axios');
 
 (async function(){
-    // Consider that, you can replace <https://lovelace-backend.codewithrodi.com> with
+    // Consider that, you can replace <https://lovelace-backend.rodyherrera.com> with
     // the address where your backend server is mounted. If the latter is
     // running locally on your network, you can use <http://0.0.0.0:8000> in case
     // that you haven't modified the default configuration.
-    const Endpoint = 'https://lovelace-backend.codewithrodi.com/api/v1/chat/providers/';
+    const Endpoint = 'https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/';
     try{
         // Making the request, and accessing the response after it
         // it has been completed.
@@ -85,7 +85,7 @@ const Axios = require('axios');
 Or, if you want to use the native JavaScript Fetch feature and experiment right now in your web browser's console, you might consider:
 
 ```javascript
-const Endpoint = 'https://lovelace-backend.codewithrodi.com/api/v1/chat/providers/';
+const Endpoint = 'https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/';
 
 fetch(Endpoint)
     .then((Response) => Response.json())

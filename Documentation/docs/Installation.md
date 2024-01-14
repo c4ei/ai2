@@ -11,7 +11,7 @@ Consider that, at this point in the reading, I assume that you already have Pyth
 
 ```bash
 # Cloning the Github repository that contains the source code (I stole it from a cyber).
-git clone https://github.com/CodeWithRodi/Lovelace/ && cd Lovelace
+git clone https://github.com/rodyherrera/Lovelace/ && cd Lovelace
 
 # Accessing the "Client" folder, which stores the source code of the 
 # Vite + ReactjS (Frontend) application, and then installing its required modules from NPM.
@@ -25,7 +25,7 @@ cd ../Client && npm install --force
 You may prefer to run everything in just one line...
 
 ```bash
-git clone https://github.com/CodeWithRodi/Lovelace/ && cd Lovelace && cd Server && npm install --force && pip install -r Requirements.txt && cd ../Client && npm install --force && cd ..
+git clone https://github.com/rodyherrera/Lovelace/ && cd Lovelace && cd Server && npm install --force && pip install -r Requirements.txt && cd ../Client && npm install --force && cd ..
 ```
 
 Keep in mind that, when you install the necessary modules to run the server, the `pip install -r Requirements.txt` command is executed in order to install the necessary packages to be able to use the `GPT4FREE` library. from Python. If you don't have `pip` installed or you don't install the Python packages, even though you have the backend server and the client mounted on the network, you won't be able to do anything, because when a request is made to both Through WebSocket's or via API using the NodeJS `python-shell` library from the backend, communication is made to the corresponding Python file that is in charge of returning the response and if it does not have its necessary requirements, it will throw an error.
@@ -36,7 +36,7 @@ Once you've cloned the Github repository, we can move on to configuring and netw
 | Folder | Description |
 | ------ | ------ |
 | Client | The "Client" folder stores the source code of the Vite + React application, that is, the Lovelace frontend, where you can mount the website on your network to be able to communicate with the backend and establish quality conversations with the AI! |
-| Documentation | The "Documentation" folder houses the source code of the software docs: https://lovelace-docs.codewithrodi.com/. |
+| Documentation | The "Documentation" folder houses the source code of the software docs: https://lovelace-docs.rodyherrera.com/. |
 | Server | The "Server" folder houses the source code for the Lovelace backend, where it is built under NodeJS using Express to provide the API and SocketIO for transmission of responses under WebSocket's. |
 
 Also, apart from folders, you will come across some files, which in the same way will be presented together with a description below.

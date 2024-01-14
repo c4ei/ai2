@@ -14,12 +14,12 @@
  * in Python, allows communication with ChatGPT through the use 
  * of different services that facilitate its use by the public.
  * 
- * For related information - https://github.com/CodeWithRodi/Lovelace/
+ * For related information - https://github.com/rodyherrera/Lovelace/
  * See also - https://github.com/xtekky/gpt4free
  * 
- * :: https://lovelace.codewithrodi.com/
- * :: https://lovelace-backend.codewithrodi.com/
- * :: https://lovelace-docs.codewithrodi.com/
+ * :: https://lovelace.rodyherrera.com/
+ * :: https://lovelace-backend.rodyherrera.com/
+ * :: https://lovelace-docs.rodyherrera.com/
  *
  * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ****/

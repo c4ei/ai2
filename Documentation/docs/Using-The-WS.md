@@ -21,7 +21,7 @@ const ReadLine = require('readline').createInterface({
 // We store the address where the Lovelace backend is mounted.
 // In case your instance is running locally
 // you can change the value of <Endpoint> to something like <http://0.0.0.0:8000>.
-const Endpoint = 'http://lovelace-backend.codewithrodi.com/';
+const Endpoint = 'http://lovelace-backend.rodyherrera.com/';
 
 (async function(){
     const Socket = io(Endpoint).connect();
@@ -48,7 +48,7 @@ const Endpoint = 'http://lovelace-backend.codewithrodi.com/';
         Model: 'GPT-3.5-Turbo',
         // Provider to use in the communication, keep in mind that not all
         // providers offer ChatGPT 3.5 or ChatGPT 4. You can make a request
-        // [GET] to <https://lovelace-backend.codewithrodi.com/api/v1/chat/providers/>
+        // [GET] to <https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/>
         Provider: 'GetGpt',
         Role: 'User',
     };

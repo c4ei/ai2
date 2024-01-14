@@ -11,14 +11,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://lovelace.codewithrodi.com',
+  url: 'https://lovelace.rodyherrera.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CodeWithRodi', // Usually your GitHub org/user name.
+  organizationName: 'rodyherrera', // Usually your GitHub org/user name.
   projectName: 'Lovelace', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -75,17 +75,17 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://lovelace.codewithrodi.com',
+            href: 'https://lovelace.rodyherrera.com',
             label: "Lovelace's Website",
             position: 'right'
           },
           {
-            href: 'https://ko-fi.com/codewithrodi',
+            href: 'https://ko-fi.com/rodyherrera',
             label: 'Donate / Contribute',
             position: 'right'
           },
           {
-            href: 'https://github.com/codewithrodi/Lovelace/',
+            href: 'https://github.com/rodyherrera/Lovelace/',
             label: 'GitHub Repository',
             position: 'right',
           },

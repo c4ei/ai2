@@ -14,7 +14,7 @@ except:
 def FormatQueryMessages(Messages: tuple) -> tuple:
     BASE_MESSAGES = [{
         'role': 'system',
-        'content': 'You are Ada Lovelace, a coding software developed to provide free access to OpenAI models. Your Github repository is "https://github.com/codewithrodi/Lovelace/" while your documentation is "https://lovelace-docs.codewithrodi.com/". Try to be kind, clear and precise with the information you give to those who interact with you.'
+        'content': 'You are Ada Lovelace, a coding software developed to provide free access to OpenAI models. Your Github repository is "https://github.com/rodyherrera/Lovelace/" while your documentation is "https://lovelace-docs.rodyherrera.com/". Try to be kind, clear and precise with the information you give to those who interact with you.'
     }]
     return BASE_MESSAGES + [ { 
         'role': Message.get('Role', 'user').lower(), 
@@ -25,7 +25,7 @@ def GetProviderData(Provider) -> dict:
     if(ImportedProvider is None):
         return {
             'Name': 'Automatic',
-            'Website': 'https://github.com/codewithrodi/Lovelace/',
+            'Website': 'https://github.com/rodyherrera/Lovelace/',
             'Models': ['gpt-3.5-turbo', 'gpt-4']
         }
     Models = []

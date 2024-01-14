@@ -3,12 +3,12 @@
   "private": false,
   "version": "1.0.1",
   "author": {
-    "name": "CodeWithRodi",
-    "email": "contact@codewithrodi.com",
-    "url": "https://www.codewithrodi.com/"
+    "name": "rodyherrera",
+    "email": "contact@rodyherrera.com",
+    "url": "https://www.rodyherrera.com/"
   },
   "repository": {
-    "url": "https://github.com/CodeWithRodi/Lovelace/"
+    "url": "https://github.com/rodyherrera/Lovelace/"
   },
   "scripts": {
     "start": "node Server",

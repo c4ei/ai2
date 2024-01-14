@@ -35,9 +35,9 @@ VITE_SERVER = http://0.0.0.0:8000
 VITE_API_SUFFIX = /api/v1
 
 # Others...
-VITE_DONATE_LINK = https://ko-fi.com/codewithrodi
+VITE_DONATE_LINK = https://ko-fi.com/rodyherrera
 VITE_GPT4FREE_LINK = https://github.com/xtekky/gpt4free
-VITE_SOFTWARE_REPOSITORY_LINK = https://github.com/codewithrodi/Lovelace
+VITE_SOFTWARE_REPOSITORY_LINK = https://github.com/rodyherrera/Lovelace
 ```
 
 ## Modifying the port and hostname of the client's server
