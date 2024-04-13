@@ -1,26 +1,26 @@
 
-# What the hell is Lovelace? 
+# What the hell is AiC4EI? 
 <a href="https://ko-fi.com/codewithrodi"> 
     <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="200" alt="Donate - Contribute" />
 </a>
 
 <br /> <br />
 
-<a href='https://lovelace-docs.rodyherrera.com'>Go read the Lovelace documentation.</a>
+<a href='https://lovelace-docs.rodyherrera.com'>Go read the AiC4EI documentation.</a>
 
-Lovelace is a web application which allows free interaction with ChatGPT using Python's GPT4FREE library. The software is written in JavaScript, using NodeJS + [Express](https://expressjs.com/es/4x/api.html) + [SocketIO](https://socket.io/) on the server side and [Vite](https://vitejs.dev/) + [ReactJS](https://react.dev/) on the Frontend.
+AiC4EI is a web application which allows free interaction with ChatGPT using Python's GPT4FREE library. The software is written in JavaScript, using NodeJS + [Express](https://expressjs.com/es/4x/api.html) + [SocketIO](https://socket.io/) on the server side and [Vite](https://vitejs.dev/) + [ReactJS](https://react.dev/) on the Frontend.
 
-The backend allows different clients to communicate with ChatGPT. If your purpose with Lovelace is to use it for your own ends or purposes, you can only mount the Backend server in your network and ignore the other side of the application, that is, the client; the backend allows its interaction through the API, or you can use the connection by WebSocket using some SocketIO client.
+The backend allows different clients to communicate with ChatGPT. If your purpose with AiC4EI is to use it for your own ends or purposes, you can only mount the Backend server in your network and ignore the other side of the application, that is, the client; the backend allows its interaction through the API, or you can use the connection by WebSocket using some SocketIO client.
 
-![Lovelace's Website Presentation](/Documentation/static/img/WebApp-Presentation.png)
+![AiC4EI's Website Presentation](/Documentation/static/img/WebApp-Presentation.png)
 
 Table of Contents:
 - Installing necessary dependencies before proceeding with the installation. [[View]](/#before-you-start-the-installation)
-- Cloning the Github repository that contains the Lovelace source code. [[View]](/#cloning-the-repository-and-starting-the-installation)
+- Cloning the Github repository that contains the AiC4EI source code. [[View]](/#cloning-the-repository-and-starting-the-installation)
 - Knowing the functionality of the files and directories found within the cloned repository. [[View]](/#knowing-a-little-more-about-the-contents-of-the-cloned-repository)
 - Running the backend server on the network. [[View]](/#riding-the-lovelace-backend-and-going-geeper-into-it)
-- Knowing the environment variables that the Lovelace Backend has. [[View]](/#what-about-environment-variables)
-- Mounting the Lovelace Frotend built with Vite + React on the network. [[View]](/#setting-up-the-vite--react-application-delving-into-the-client)
+- Knowing the environment variables that the AiC4EI Backend has. [[View]](/#what-about-environment-variables)
+- Mounting the AiC4EI Frotend built with Vite + React on the network. [[View]](/#setting-up-the-vite--react-application-delving-into-the-client)
 - Knowing and modifying the environment variables that the Vite + React application has (Frontend). [[View]](/#modifying-environment-variables)
 - Modifying the host and port where the development server of the Vite + React web application (Frontend) will be mounted. [[View]](/#modifying-the-port-and-hostname-of-the-clients-server)
 - Why was Vite selected to build the software interface? [[View]](/#why-is-vite-used-in-the-client-application)
@@ -30,7 +30,7 @@ Table of Contents:
 - Getting to know some of the clients available from SocketIO in other technologies/programming languages. [[View]](/#socketio-clients-to-establish-communication-with-the-server)
 - Using the API to obtain the list of providers and their respective models available, both for requests to the AI ​​through the API and WebSocket's. [[View]](/#using-the-api-to-get-the-list-of-available-providers-and-models)
 - An overview of the web application. [[View]](/#time-to-learn-how-to-use-the-web-application)
-- Knowing the main functionalities provided by the Lovelace web application. [[View]](/#about-the-options-available-at-first-glance)
+- Knowing the main functionalities provided by the AiC4EI web application. [[View]](/#about-the-options-available-at-first-glance)
 - Learning to use the settings menu provided by the web application and knowing each of its features. [[View]](/#whats-behind-the-settings-menu)
 - Learning to use the history of interactions with the AI ​​provided by the web application. [[View]](/#the-history-of-interactions-with-ada)
 - Partially knowing the design of the application on mobile devices. [[View]](https://lovelace-docs.rodyherrera.com/learning-how-to-use-the-web-application/#a-view-of-design-within-mobile-devices)
@@ -38,7 +38,7 @@ Table of Contents:
 - Video-based example of the use of the web application on mobile devices. [[View]](https://lovelace-docs.rodyherrera.com/Web-App-Usage#using-the-web-application-on-mobile)
 
 ## Before you start the installation
-Installing Lovelace on your computer or server is relatively simple, you shouldn't have any major complications in the process; however, before you start cloning the repository, make sure you have at least `NodeJS v18.0.0` and `Python v3.10`.
+Installing AiC4EI on your computer or server is relatively simple, you shouldn't have any major complications in the process; however, before you start cloning the repository, make sure you have at least `NodeJS v18.0.0` and `Python v3.10`.
 
 Consider that, in case you do not have the required NodeJS version installed on your system, you can use the version manager [`NVM (Node Version Manager)`](https://github.com/nvm-sh/nvm#installing-and-updating).
 
@@ -74,27 +74,27 @@ python3 get-pip.py
 Now, assuming you have the aforementioned dependencies installed on your system, we can proceed to the next step...
 
 # Cloning the repository and starting the installation
-Before we start installing and configuring the backend server as the Lovelace frontend, we need to clone the Github repository where the application source code is located.
+Before we start installing and configuring the backend server as the AiC4EI frontend, we need to clone the Github repository where the application source code is located.
 
 Consider that, at this point in the reading, I assume that you already have Python version 3.10 or higher and NodeJS version 18.0.0; In the previous reading, before proceeding with the installation, the steps to install each one of them were explained.
 
 ```bash
 # Cloning the Github repository that contains the source code (I stole it from a cyber).
-git clone https://github.com/rodyherrera/Lovelace/ && cd Lovelace
+git clone https://github.com/rodyherrera/Lovelace/ && cd AiC4EI
 
 # Accessing the "Client" folder, which stores the source code of the 
 # Vite + ReactjS (Frontend) application, and then installing its required modules from NPM.
 cd Server && npm install --force && pip install -r Requirements.txt
 
 # Like the previous line, we access the "Server" folder that houses the source code 
-# for the Lovelace Backend, then we install the NPM packages required to mount on the network.
+# for the AiC4EI Backend, then we install the NPM packages required to mount on the network.
 cd ../Client && npm install --force 
 ```
 
 You may prefer to run everything in just one line...
 
 ```bash
-git clone https://github.com/rodyherrera/Lovelace/ && cd Lovelace && cd Server && npm install --force && pip install -r Requirements.txt && cd ../Client && npm install --force && cd ..
+git clone https://github.com/rodyherrera/Lovelace/ && cd AiC4EI && cd Server && npm install --force && pip install -r Requirements.txt && cd ../Client && npm install --force && cd ..
 ```
 
 Keep in mind that, when you install the necessary modules to run the server, the `pip install -r Requirements.txt` command is executed in order to install the necessary packages to be able to use the `GPT4FREE` library. from Python. If you don't have `pip` installed or you don't install the Python packages, even though you have the backend server and the client mounted on the network, you won't be able to do anything, because when a request is made to both Through WebSocket's or via API using the NodeJS `python-shell` library from the backend, communication is made to the corresponding Python file that is in charge of returning the response and if it does not have its necessary requirements, it will throw an error.
@@ -104,19 +104,19 @@ Once you've cloned the Github repository, we can move on to configuring and netw
 
 | Folder | Description |
 | ------ | ------ |
-| Client | The "Client" folder stores the source code of the Vite + React application, that is, the Lovelace frontend, where you can mount the website on your network to be able to communicate with the backend and establish quality conversations with the AI! |
+| Client | The "Client" folder stores the source code of the Vite + React application, that is, the AiC4EI frontend, where you can mount the website on your network to be able to communicate with the backend and establish quality conversations with the AI! |
 | Documentation | The "Documentation" folder houses the source code of the software docs: https://lovelace-docs.rodyherrera.com/. |
-| Server | The "Server" folder houses the source code for the Lovelace backend, where it is built under NodeJS using Express to provide the API and SocketIO for transmission of responses under WebSocket's. |
+| Server | The "Server" folder houses the source code for the AiC4EI backend, where it is built under NodeJS using Express to provide the API and SocketIO for transmission of responses under WebSocket's. |
 
 Also, apart from folders, you will come across some files, which in the same way will be presented together with a description below.
 
 | File | Description |
 | ------ | ------ |
 | .clocignore | It is used by the "cloc" software, which allows counting the lines of software code, separating them by technology and the comments that the programming language used may have. Inside the "clocignore" file, there are the paths of those files and directories that the software must ignore when counting. |
-| LICENSE | Contains the Lovelace license to which the source code of the Client and Server are subject. This software is licensed under the MIT license. |
+| LICENSE | Contains the AiC4EI license to which the source code of the Client and Server are subject. This software is licensed under the MIT license. |
 
 
-# Riding the Lovelace Backend and going geeper into it.
+# Riding the AiC4EI Backend and going geeper into it.
 Once the repository has been cloned and you have subsequently installed the necessary Server and Client NPM modules, it is time to set up the backend to start using the software.
 
 Let's start with the server, this is where the magic will happen, you can communicate with the AI ​​through API requests or using WebSocket's; Next, you will be presented with the series of commands to be able to mount the server within the network.
@@ -129,7 +129,7 @@ cd Server/
 npm run start
 ```
 
-If you have done everything correctly, the server should already be running on your system. You can check it if you access `http://0.0.0.0:8000/api/v1/`!
+If you have done everything correctly, the server should already be running on your system. You can check it if you access `http://0.0.0.0:3334/api/v1/`!
 
 ## Other ways to raise the server...
 
@@ -151,7 +151,7 @@ CLIENT_HOST = https://lovelace.rodyherrera.com/
 
 # Port where the server will 
 # start executing over the network.
-SERVER_PORT = 8000
+SERVER_PORT = 3334
 
 # Hostname where the server will be launched in 
 # complement with the previously established 
@@ -195,7 +195,7 @@ In the same way in which it was done in the previous reading, the list of enviro
 # Address where the backend server was mounted, you must
 # be sure to specify in the address if you have ridden
 # the server under HTTPS, changing <http> to <https> ;)
-VITE_SERVER = http://0.0.0.0:8000
+VITE_SERVER = http://0.0.0.0:3334
 
 # The server has a suffix to be able to access its respective API
 # in this case we use v1
@@ -241,7 +241,7 @@ Currently, the following translations exist within the web application: ```Frenc
 
 
 # Using the API provided by the backend to interact with the AI.
-If your intention is to utilize Lovelace for your individual needs and objectives, you may disregard the Client application implemented in ReactJS. Instead, divert your attention towards the Server, as it is where the enchantment truly takes place.
+If your intention is to utilize AiC4EI for your individual needs and objectives, you may disregard the Client application implemented in ReactJS. Instead, divert your attention towards the Server, as it is where the enchantment truly takes place.
 
 Keep in mind that when communicating with the backend using the API or WebSocket's, the data sent as `Model or Role` is not case-sensitive, that is, if the value of `Model` is `gPT-3.5-TUrbO` will not matter, since it will be formatted from the backend, the `Prompt` is obviously not important either, but the value assigned to `Provider` is, in later readings you will learn how to obtain the available providers to be able to use when establishing an interaction with the AI, in the same way that you will be able to know what their respective models are, or you can now access the same path [`/api/v1/chat/providers/`](https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/) of the public instance of the lovelace backend and view the information.
 
@@ -264,7 +264,7 @@ const Data = {
 
 // Note that if you want to use your own instance replace
 // <https://lovelace-backend.rodyherrera.com> for the address
-// from your server, or <http://0.0.0.0:8000> in case it is
+// from your server, or <http://0.0.0.0:3334> in case it is
 // is running locally.
 const Endpoint = 'https://lovelace-backend.rodyherrera.com/api/v1/chat/completions';
 
@@ -329,9 +329,9 @@ const ReadLine = require('readline').createInterface({
     output: process.stdout
 });
 
-// We store the address where the Lovelace backend is mounted.
+// We store the address where the AiC4EI backend is mounted.
 // In case your instance is running locally
-// you can change the value of <Endpoint> to something like <http://0.0.0.0:8000>.
+// you can change the value of <Endpoint> to something like <http://0.0.0.0:3334>.
 const Endpoint = 'http://lovelace-backend.rodyherrera.com/';
 
 (async function(){
@@ -394,7 +394,7 @@ const Endpoint = 'http://lovelace-backend.rodyherrera.com/';
 
 ## SocketIO clients to establish communication with the server
 
-If you want to establish communication with the Lovelace Backend through WebSocket's in another language than the one presented, you can consider:
+If you want to establish communication with the AiC4EI Backend through WebSocket's in another language than the one presented, you can consider:
 - [NodeJS Socket.IO Client](https://www.npmjs.com/package/socket.io-client): Realtime application framework (client).
 - [Python Socket.IO Client](https://python-socketio.readthedocs.io/en/latest/client.html): The Socket.IO Client.
 - [Rust Socket.IO Client](https://crates.io/crates/rust_socketio): An implementation of a socketio client written in rust.
@@ -407,7 +407,7 @@ If you want to establish communication with the Lovelace Backend through WebSock
 - 
 
 # Using the API to get the list of available providers and models.
-Consider that, despite the fact that the `GPT4FREE` python library is used within the backend, the latter's providers are different from those offered by Lovelace. You can obtain the list of available providers using the API, where you will obtain information such as the models that it allows to use, the web address where the service is hosted and the name that must be specified when interacting with the AI ​​as you have seen in the examples. previous (API, WS).
+Consider that, despite the fact that the `GPT4FREE` python library is used within the backend, the latter's providers are different from those offered by AiC4EI. You can obtain the list of available providers using the API, where you will obtain information such as the models that it allows to use, the web address where the service is hosted and the name that must be specified when interacting with the AI ​​as you have seen in the examples. previous (API, WS).
 
 The response you should get from `https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/` should be:
 ```json
@@ -457,7 +457,7 @@ The response you should get from `https://lovelace-backend.rodyherrera.com/api/v
 As you have seen, the list of providers is divided into 2 parts, one for those queries made through the API while for those that use WebSocket's.
 
 ## Getting the list of providers from JavaScript...
-Unlike other examples where requests to the Lovelace backend server are involved, obtaining the list of providers and their respective available models is quite an easy task, since we only have to send a [GET] request to `/api/v1 /chat/providers/`, where the response will be the JSON that was shown to you previously.
+Unlike other examples where requests to the AiC4EI backend server are involved, obtaining the list of providers and their respective available models is quite an easy task, since we only have to send a [GET] request to `/api/v1 /chat/providers/`, where the response will be the JSON that was shown to you previously.
 
 For the following example, we'll use Axios within NodeJS, which you can install using the NPM package manager using the `npm i axios` command.
 
@@ -467,7 +467,7 @@ const Axios = require('axios');
 (async function(){
     // Consider that, you can replace <https://lovelace-backend.rodyherrera.com> with
     // the address where your backend server is mounted. If the latter is
-    // running locally on your network, you can use <http://0.0.0.0:8000> in case
+    // running locally on your network, you can use <http://0.0.0.0:3334> in case
     // that you haven't modified the default configuration.
     const Endpoint = 'https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/';
     try{
@@ -499,7 +499,7 @@ fetch(Endpoint)
 
 It is important that you know each of the functionalities that the application has in detail, despite the fact that the user interface built is quite simple to understand and in the same intuitive way. Next we will analyze part of the elements that make up the interface and what their respective functionality is.
 
-![Lovelace's Website Landing Page](/Documentation/static/img/WebApp-Landing.png)
+![AiC4EI's Website Landing Page](/Documentation/static/img/WebApp-Landing.png)
 
 ## About the options available at first glance
 
@@ -518,7 +518,7 @@ Leaving the options aside, on the left side we have the chat, where in the first
 
 ## What's behind the settings menu?
 
-![Lovelace's Settings Menu](/Documentation/static/img/WebApp-Settings-Menu.png)
+![AiC4EI's Settings Menu](/Documentation/static/img/WebApp-Settings-Menu.png)
 
 As previously presented, the configuration menu will allow us to choose the model to be used when interacting with the AI, as well as the Role, the provider and the communication mode. As a recommendation, you should not modify the model, because most providers only accept GPT-3.5-Turbo and not GPT-4, in case you change the model you may present some inconveniences when interacting with the AI. You can be free to modify the rest of the settings.
 
@@ -531,23 +531,23 @@ As previously presented, the configuration menu will allow us to choose the mode
 
 ## The history of interactions with Ada
 
-![Lovelace's Historial](/Documentation/static/img/WebApp-Historial.png)
+![AiC4EI's Historial](/Documentation/static/img/WebApp-Historial.png)
 
 As can be seen in the illustration, when making a prompt and obtaining a response from the AI, in the menu located on the left below "My Activity" we can see the interaction record which is isolated by dates. If you press an interaction, you have a Popover which will allow you to delete the interaction from the history, in this case there are two:
 
 - `Who are you?, Why your name is Ada?`:
-Hello! I am Ada Lovelace, an AI language model developed by OpenAI. I am named after Ada Lovelace, an English mathematician and writer who is recognized as the world's first computer programmer. I am here to provide assistance and answer any questions you may have about coding, software development, or any other related topics. How can I help you today?
+Hello! I am Ada AiC4EI, an AI language model developed by OpenAI. I am named after Ada AiC4EI, an English mathematician and writer who is recognized as the world's first computer programmer. I am here to provide assistance and answer any questions you may have about coding, software development, or any other related topics. How can I help you today?
 
 
-- `What is your Github Repository and your Documentation?`: Thank you for your question! As Ada Lovelace, my Github repository can be accessed at "https://github.com/rodyherrera/Lovelace/". This repository contains the codebase and related files for the development of the Lovelace coding software.For detailed information about using Lovelace and to understand its features and functionalities, you can refer to the official documentation. It is available at "https://lovelace-docs.rodyherrera.com/". The documentation provides comprehensive instructions, explanations, and examples to help you make the most out of Lovelace while ensuring clarity and precision in the information provided.If you have any further inquiries or need assistance, feel free to ask! I'm here to help.
+- `What is your Github Repository and your Documentation?`: Thank you for your question! As Ada AiC4EI, my Github repository can be accessed at "https://github.com/rodyherrera/Lovelace/". This repository contains the codebase and related files for the development of the AiC4EI coding software.For detailed information about using AiC4EI and to understand its features and functionalities, you can refer to the official documentation. It is available at "https://lovelace-docs.rodyherrera.com/". The documentation provides comprehensive instructions, explanations, and examples to help you make the most out of AiC4EI while ensuring clarity and precision in the information provided.If you have any further inquiries or need assistance, feel free to ask! I'm here to help.
 
 If both are eliminated, the record will obviously be completely eliminated.
 
 Consider that your activity is not being sent at any time to a server and everything is stored locally in your web client.
 
 ## A view of design within mobile devices
-![Lovelace's Mobile View 1](/Documentation/static/img/WebApp-MobileOne.png)
-![Lovelace's Mobile VIew 2](/Documentation/static/img/WebApp-MobileTwo.png)
+![AiC4EI's Mobile View 1](/Documentation/static/img/WebApp-MobileOne.png)
+![AiC4EI's Mobile VIew 2](/Documentation/static/img/WebApp-MobileTwo.png)
 
 Consider that, within the chat, at the top you have the options `Settings - Activity - Reset Chat`, which were previously presented, this menu is hidden when scrolling down, but reappears when scrolling down above (hired to explain how animations work haha), the point is, this is done in order not to clutter up the user interface so much.
 
@@ -558,7 +558,7 @@ In the upper right part there is the menu, where when you open it in the lower l
 # Exemplifying the use of the web application on computers and mobiles.
 
 ## Using the web application on Desktop
-In the video that will be presented below, you will be able to see the different animations and options that Lovelace provides in its web application.
+In the video that will be presented below, you will be able to see the different animations and options that AiC4EI provides in its web application.
 
 [![Watch the video](https://www.freeiconspng.com/uploads/play-button-icon-png-8.png)](/Documentation/static/videos/WebApp-Usage.mp4)
 

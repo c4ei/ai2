@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Lovelace Docs',
+  title: 'The AiC4EI Docs',
   tagline: 'Use ChatGPT completely free and anonymously, what are you waiting for to be able to chat with the most philosophical conversations and questions about your existence?',
   favicon: 'img/favicon.ico',
 
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rodyherrera', // Usually your GitHub org/user name.
-  projectName: 'Lovelace', // Usually your repo name.
+  projectName: 'AiC4EI', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -63,9 +63,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Lovelace Docs',
+        title: 'AiC4EI Docs',
         logo: {
-          alt: 'Lovelace Logo',
+          alt: 'AiC4EI Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -76,7 +76,7 @@ const config = {
           },
           {
             href: 'https://lovelace.rodyherrera.com',
-            label: "Lovelace's Website",
+            label: "AiC4EI's Website",
             position: 'right'
           },
           {
@@ -93,7 +93,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} 2023 Lovelace AI.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 2023 AiC4EI AI.`,
       },
       prism: {
         theme: lightCodeTheme,

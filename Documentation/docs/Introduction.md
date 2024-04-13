@@ -4,21 +4,21 @@ slug: /
 hide_table_of_contents: true
 ---
 
-# What the hell is Lovelace?
+# What the hell is AiC4EI?
 
-Lovelace is a web application which allows free interaction with ChatGPT using Python's GPT4FREE library. The software is written in JavaScript, using NodeJS + [Express](https://expressjs.com/es/4x/api.html) + [SocketIO](https://socket.io/) on the server side and [Vite](https://vitejs.dev/) + [ReactJS](https://react.dev/) on the Frontend.
+AiC4EI is a web application which allows free interaction with ChatGPT using Python's GPT4FREE library. The software is written in JavaScript, using NodeJS + [Express](https://expressjs.com/es/4x/api.html) + [SocketIO](https://socket.io/) on the server side and [Vite](https://vitejs.dev/) + [ReactJS](https://react.dev/) on the Frontend.
 
-The backend allows different clients to communicate with ChatGPT. If your purpose with Lovelace is to use it for your own ends or purposes, you can only mount the Backend server in your network and ignore the other side of the application, that is, the client; the backend allows its interaction through the API, or you can use the connection by WebSocket using some SocketIO client.
+The backend allows different clients to communicate with ChatGPT. If your purpose with AiC4EI is to use it for your own ends or purposes, you can only mount the Backend server in your network and ignore the other side of the application, that is, the client; the backend allows its interaction through the API, or you can use the connection by WebSocket using some SocketIO client.
 
-![Lovelace's Website Presentation](/img/WebApp-Presentation.png)
+![AiC4EI's Website Presentation](/img/WebApp-Presentation.png)
 
 Table of Contents:
 - Installing necessary dependencies before proceeding with the installation. [[View]](/#before-you-start-the-installation)
-- Cloning the Github repository that contains the Lovelace source code. [[View]](/installation)
+- Cloning the Github repository that contains the AiC4EI source code. [[View]](/installation)
 - Knowing the functionality of the files and directories found within the cloned repository. [[View]](/installation#knowing-a-little-more-about-the-contents-of-the-cloned-repository)
 - Running the backend server on the network. [[View]](/mounting-server-in-the-network/)
-- Knowing the environment variables that the Lovelace Backend has. [[View]](/mounting-server-in-the-network/#what-about-environment-variables)
-- Mounting the Lovelace Frotend built with Vite + React on the network. [[View]](/mounting-webapp-in-the-network/)
+- Knowing the environment variables that the AiC4EI Backend has. [[View]](/mounting-server-in-the-network/#what-about-environment-variables)
+- Mounting the AiC4EI Frotend built with Vite + React on the network. [[View]](/mounting-webapp-in-the-network/)
 - Knowing and modifying the environment variables that the Vite + React application has (Frontend). [[View]](/mounting-webapp-in-the-network/#modifying-environment-variables)
 - Modifying the host and port where the development server of the Vite + React web application (Frontend) will be mounted. [[View]](/mounting-webapp-in-the-network/#modifying-the-port-and-hostname-of-the-clients-server)
 - Why was Vite selected to build the software interface? [[View]](/mounting-webapp-in-the-network/#why-is-vite-used-in-the-client-application)
@@ -28,7 +28,7 @@ Table of Contents:
 - Getting to know some of the clients available from SocketIO in other technologies/programming languages. [[View]](/learning-how-to-use-websockets-for-interact-with-the-ai/#socketio-clients-to-establish-communication-with-the-server)
 - Using the API to obtain the list of providers and their respective models available, both for requests to the AI ​​through the API and WebSocket's. [[View]](/available-providers-and-models/)
 - An overview of the web application. [[View]](/learning-how-to-use-the-web-application/)
-- Knowing the main functionalities provided by the Lovelace web application. [[View]](/learning-how-to-use-the-web-application/#about-the-options-available-at-first-glance)
+- Knowing the main functionalities provided by the AiC4EI web application. [[View]](/learning-how-to-use-the-web-application/#about-the-options-available-at-first-glance)
 - Learning to use the settings menu provided by the web application and knowing each of its features. [[View]](/learning-how-to-use-the-web-application/#whats-behind-the-settings-menu)
 - Learning to use the history of interactions with the AI ​​provided by the web application. [[View]](/learning-how-to-use-the-web-application/#the-history-of-interactions-with-ada)
 - Partially knowing the design of the application on mobile devices. [[View]](/learning-how-to-use-the-web-application/#a-view-of-design-within-mobile-devices)
@@ -36,7 +36,7 @@ Table of Contents:
 - Video-based example of the use of the web application on mobile devices. [[View]](/Web-App-Usage#using-the-web-application-on-mobile)
 
 ## Before you start the installation
-Installing Lovelace on your computer or server is relatively simple, you shouldn't have any major complications in the process; however, before you start cloning the repository, make sure you have at least `NodeJS v18.0.0` and `Python v3.10`.
+Installing AiC4EI on your computer or server is relatively simple, you shouldn't have any major complications in the process; however, before you start cloning the repository, make sure you have at least `NodeJS v18.0.0` and `Python v3.10`.
 
 Consider that, in case you do not have the required NodeJS version installed on your system, you can use the version manager [`NVM (Node Version Manager)`](https://github.com/nvm-sh/nvm#installing-and-updating).
 

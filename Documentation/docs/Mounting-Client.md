@@ -28,7 +28,7 @@ In the same way in which it was done in the previous reading, the list of enviro
 # Address where the backend server was mounted, you must
 # be sure to specify in the address if you have ridden
 # the server under HTTPS, changing <http> to <https> ;)
-VITE_SERVER = http://0.0.0.0:8000
+VITE_SERVER = http://0.0.0.0:3334
 
 # The server has a suffix to be able to access its respective API
 # in this case we use v1

@@ -5,7 +5,7 @@ slug: /learning-how-to-use-the-api-for-interact-with-the-ai/
 ---
 
 # Using the API provided by the backend to interact with the AI.
-If your intention is to utilize Lovelace for your individual needs and objectives, you may disregard the Client application implemented in ReactJS. Instead, divert your attention towards the Server, as it is where the enchantment truly takes place.
+If your intention is to utilize AiC4EI for your individual needs and objectives, you may disregard the Client application implemented in ReactJS. Instead, divert your attention towards the Server, as it is where the enchantment truly takes place.
 
 Keep in mind that when communicating with the backend using the API or WebSocket's, the data sent as `Model or Role` is not case-sensitive, that is, if the value of `Model` is `gPT-3.5-TUrbO` will not matter, since it will be formatted from the backend, the `Prompt` is obviously not important either, but the value assigned to `Provider` is, in later readings you will learn how to obtain the available providers to be able to use when establishing an interaction with the AI, in the same way that you will be able to know what their respective models are, or you can now access the same path [`/api/v1/chat/providers/`](https://lovelace-backend.rodyherrera.com/api/v1/chat/providers/) of the public instance of the lovelace backend and view the information.
 
@@ -28,7 +28,7 @@ const Data = {
 
 // Note that if you want to use your own instance replace
 // <https://lovelace-backend.rodyherrera.com> for the address
-// from your server, or <http://0.0.0.0:8000> in case it is
+// from your server, or <http://0.0.0.0:3334> in case it is
 // is running locally.
 const Endpoint = 'https://lovelace-backend.rodyherrera.com/api/v1/chat/completions';
 

@@ -4,7 +4,7 @@ hide_table_of_contents: true
 slug: /mounting-server-in-the-network/
 ---
 
-# Riding the Lovelace Backend and going geeper into it.
+# Riding the AiC4EI Backend and going geeper into it.
 Once the repository has been cloned and you have subsequently installed the necessary Server and Client NPM modules, it is time to set up the backend to start using the software.
 
 Let's start with the server, this is where the magic will happen, you can communicate with the AI ​​through API requests or using WebSocket's; Next, you will be presented with the series of commands to be able to mount the server within the network.
@@ -17,7 +17,7 @@ cd Server/
 npm run production
 ```
 
-If you have done everything correctly, the server should already be running on your system. You can check it if you access `http://0.0.0.0:8000/api/v1/`!
+If you have done everything correctly, the server should already be running on your system. You can check it if you access `http://0.0.0.0:3334/api/v1/`!
 
 ## Other ways to raise the server...
 
@@ -39,7 +39,7 @@ CLIENT_HOST = https://lovelace.rodyherrera.com/
 
 # Port where the server will 
 # start executing over the network.
-SERVER_PORT = 8000
+SERVER_PORT = 3334
 
 # Hostname where the server will be launched in 
 # complement with the previously established 

@@ -18,9 +18,9 @@ const ReadLine = require('readline').createInterface({
     output: process.stdout
 });
 
-// We store the address where the Lovelace backend is mounted.
+// We store the address where the AiC4EI backend is mounted.
 // In case your instance is running locally
-// you can change the value of <Endpoint> to something like <http://0.0.0.0:8000>.
+// you can change the value of <Endpoint> to something like <http://0.0.0.0:3334>.
 const Endpoint = 'http://lovelace-backend.rodyherrera.com/';
 
 (async function(){
@@ -83,7 +83,7 @@ const Endpoint = 'http://lovelace-backend.rodyherrera.com/';
 
 ## SocketIO clients to establish communication with the server
 
-If you want to establish communication with the Lovelace Backend through WebSocket's in another language than the one presented, you can consider:
+If you want to establish communication with the AiC4EI Backend through WebSocket's in another language than the one presented, you can consider:
 - [NodeJS Socket.IO Client](https://www.npmjs.com/package/socket.io-client): Realtime application framework (client).
 - [Python Socket.IO Client](https://python-socketio.readthedocs.io/en/latest/client.html): The Socket.IO Client.
 - [Rust Socket.IO Client](https://crates.io/crates/rust_socketio): An implementation of a socketio client written in rust.

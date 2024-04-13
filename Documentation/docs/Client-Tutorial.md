@@ -8,7 +8,7 @@ slug: /learning-how-to-use-the-web-application/
 
 It is important that you know each of the functionalities that the application has in detail, despite the fact that the user interface built is quite simple to understand and in the same intuitive way. Next we will analyze part of the elements that make up the interface and what their respective functionality is.
 
-![Lovelace's Website Landing Page](/img/WebApp-Landing.png)
+![AiC4EI's Website Landing Page](/img/WebApp-Landing.png)
 
 ## About the options available at first glance
 
@@ -27,7 +27,7 @@ Leaving the options aside, on the left side we have the chat, where in the first
 
 ## What's behind the settings menu?
 
-![Lovelace's Settings Menu](/img/WebApp-Settings-Menu.png)
+![AiC4EI's Settings Menu](/img/WebApp-Settings-Menu.png)
 
 As previously presented, the configuration menu will allow us to choose the model to be used when interacting with the AI, as well as the Role, the provider and the communication mode. As a recommendation, you should not modify the model, because most providers only accept GPT-3.5-Turbo and not GPT-4, in case you change the model you may present some inconveniences when interacting with the AI. You can be free to modify the rest of the settings.
 
@@ -40,23 +40,23 @@ As previously presented, the configuration menu will allow us to choose the mode
 
 ## The history of interactions with Ada
 
-![Lovelace's Historial](/img/WebApp-Historial.png)
+![AiC4EI's Historial](/img/WebApp-Historial.png)
 
 As can be seen in the illustration, when making a prompt and obtaining a response from the AI, in the menu located on the left below "My Activity" we can see the interaction record which is isolated by dates. If you press an interaction, you have a Popover which will allow you to delete the interaction from the history, in this case there are two:
 
 - `Who are you?, Why your name is Ada?`:
-Hello! I am Ada Lovelace, an AI language model developed by OpenAI. I am named after Ada Lovelace, an English mathematician and writer who is recognized as the world's first computer programmer. I am here to provide assistance and answer any questions you may have about coding, software development, or any other related topics. How can I help you today?
+Hello! I am Ada AiC4EI, an AI language model developed by OpenAI. I am named after Ada AiC4EI, an English mathematician and writer who is recognized as the world's first computer programmer. I am here to provide assistance and answer any questions you may have about coding, software development, or any other related topics. How can I help you today?
 
 
-- `What is your Github Repository and your Documentation?`: Thank you for your question! As Ada Lovelace, my Github repository can be accessed at "https://github.com/rodyherrera/Lovelace/". This repository contains the codebase and related files for the development of the Lovelace coding software.For detailed information about using Lovelace and to understand its features and functionalities, you can refer to the official documentation. It is available at "https://lovelace-docs.rodyherrera.com/". The documentation provides comprehensive instructions, explanations, and examples to help you make the most out of Lovelace while ensuring clarity and precision in the information provided.If you have any further inquiries or need assistance, feel free to ask! I'm here to help.
+- `What is your Github Repository and your Documentation?`: Thank you for your question! As Ada AiC4EI, my Github repository can be accessed at "https://github.com/rodyherrera/Lovelace/". This repository contains the codebase and related files for the development of the AiC4EI coding software.For detailed information about using AiC4EI and to understand its features and functionalities, you can refer to the official documentation. It is available at "https://lovelace-docs.rodyherrera.com/". The documentation provides comprehensive instructions, explanations, and examples to help you make the most out of AiC4EI while ensuring clarity and precision in the information provided.If you have any further inquiries or need assistance, feel free to ask! I'm here to help.
 
 If both are eliminated, the record will obviously be completely eliminated.
 
 Consider that your activity is not being sent at any time to a server and everything is stored locally in your web client.
 
 ## A view of design within mobile devices
-![Lovelace's Mobile View 1](/img/WebApp-MobileOne.png)
-![Lovelace's Mobile VIew 2](/img/WebApp-MobileTwo.png)
+![AiC4EI's Mobile View 1](/img/WebApp-MobileOne.png)
+![AiC4EI's Mobile VIew 2](/img/WebApp-MobileTwo.png)
 
 Consider that, within the chat, at the top you have the options `Settings - Activity - Reset Chat`, which were previously presented, this menu is hidden when scrolling down, but reappears when scrolling down above (hired to explain how animations work haha), the point is, this is done in order not to clutter up the user interface so much.
 
