@@ -17,9 +17,10 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_MOUNT": "채팅에 프롬프트 기록을 마운트하려면 누르세요.",
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "채팅 프롬프트 로그를 마운트 해제하려면 누르세요.",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "내 활동",
-    "CHAT_SIDE_MENU_GITHUB": "Github",
+    "CHAT_SIDE_MENU_GITHUB": "C4EI홈페이지",
+    "CHAT_SIDE_MENU_C4EX": "AAH코인구매",
     "CHAT_SIDE_MENU_SETTINGS": "설정",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "호기심을 결코 만족시키지 못하는 사람들에 의해 그리고 그들을 위해 만들어졌습니다..",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI는 정확하지 않은 정보를 제공 할 수 있습니다.",
     "MOBILE_OPTIONS_SETTINGS": "설정",
     "MOBILE_OPTIONS_ACTIVITY": "활동",
     "MOBILE_OPTIONS_RESET_CHAT": "채팅 재설정",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "AIC4EI를 계속해서 올바르게 유지하고 발전시키기 위해 여러분의 모래알 하나라도 기여할 수 있습니다.",
     "TOOLTIP_RESET_CHAT": "현재 채팅 지우기.",
     "TOOLTIP_MY_ACTIVITY": "AI와의 상호 작용 로그 보기.",
-    "TOOLTIP_GITHUB": "Github에서 AIC4EI 소스 코드를 호스팅하는 저장소를 방문해보세요!"
+    "TOOLTIP_GITHUB": "AI C4EI Homepage를 방문해보세요!",
+    "TOOLTIP_C4EX": "AAH 코인을 구매하러 C4EX를 방문해보세요!"
 }

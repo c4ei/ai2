@@ -18,8 +18,9 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "اضغط لإلغاء تركيب سجل محادثة الاستفهام.",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "نشاطي",
     "CHAT_SIDE_MENU_GITHUB": "جيت هاب",
+    "CHAT_SIDE_MENU_C4EX": "BUY AAH",
     "CHAT_SIDE_MENU_SETTINGS": "الإعدادات",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "أنشئت من قبل ولصالح تلك العقول التي لا تشبع فضولها أبدًا.",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI may provide inaccurate information.",
     "MOBILE_OPTIONS_SETTINGS": "الإعدادات",
     "MOBILE_OPTIONS_ACTIVITY": "النشاط",
     "MOBILE_OPTIONS_RESET_CHAT": "إعادة تعيين المحادثة",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "يمكنك المساهمة بجهودك للمساعدة في الاستمرار في تشغيل لوفليس وتطويره.",
     "TOOLTIP_RESET_CHAT": "مسح المحادثة الحالية.",
     "TOOLTIP_MY_ACTIVITY": "عرض سجل تفاعلاتك مع الذكاء الاصطناعي.",
-    "TOOLTIP_GITHUB": "قم بزيارة المستودع الذي يحتضن شفرة لوفليس على Github!"
+    "TOOLTIP_GITHUB": "قم بزيارة المستودع الذي يحتضن شفرة لوفليس على Github!",
+    "TOOLTIP_C4EX": "Visit C4EX to buy AAH coins!"
 }

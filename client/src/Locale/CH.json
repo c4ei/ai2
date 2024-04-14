@@ -18,8 +18,9 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "点击以卸载聊天提示记录。",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "我的活动",
     "CHAT_SIDE_MENU_GITHUB": "Github",
+    "CHAT_SIDE_MENU_C4EX": "BUY AAH",
     "CHAT_SIDE_MENU_SETTINGS": "设置",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "为那些永不满足好奇心的思想创造。",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI may provide inaccurate information.",
     "MOBILE_OPTIONS_SETTINGS": "设置",
     "MOBILE_OPTIONS_ACTIVITY": "活动",
     "MOBILE_OPTIONS_RESET_CHAT": "重置聊天",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "您可以为继续支持Lovelace的运行和发展做出贡献。",
     "TOOLTIP_RESET_CHAT": "清除当前聊天记录。",
     "TOOLTIP_MY_ACTIVITY": "查看与人工智能的互动日志。",
-    "TOOLTIP_GITHUB": "访问托管Lovelace源代码的Github存储库！"
+    "TOOLTIP_GITHUB": "访问托管Lovelace源代码的Github存储库！",
+    "TOOLTIP_C4EX": "Visit C4EX to buy AAH coins!"
 }

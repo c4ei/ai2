@@ -18,8 +18,9 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "Sohbet kaydını bağlamayı kaldırmak için basın.",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "Etkinliğim",
     "CHAT_SIDE_MENU_GITHUB": "Github",
+    "CHAT_SIDE_MENU_C4EX": "BUY AAH",
     "CHAT_SIDE_MENU_SETTINGS": "Ayarlar",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "Meraklarını hiçbir zaman tatmin etmeyen zihinler tarafından oluşturulmuştur.",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI may provide inaccurate information.",
     "MOBILE_OPTIONS_SETTINGS": "Ayarlar",
     "MOBILE_OPTIONS_ACTIVITY": "Etkinlik",
     "MOBILE_OPTIONS_RESET_CHAT": "Sohbeti Sıfırla",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "AiC4EI'i ayakta tutmaya ve geliştirmeye devam etmek için katkıda bulunabilirsiniz.",
     "TOOLTIP_RESET_CHAT": "Geçerli sohbeti temizleyin.",
     "TOOLTIP_MY_ACTIVITY": "AI ile etkileşimlerinizin günlüğünü görüntüleyin.",
-    "TOOLTIP_GITHUB": "AiC4EI kaynak kodunu barındıran depoyu Github üzerinde ziyaret edin!"
+    "TOOLTIP_GITHUB": "AiC4EI kaynak kodunu barındıran depoyu Github üzerinde ziyaret edin!",
+    "TOOLTIP_C4EX": "Visit C4EX to buy AAH coins!"
 }

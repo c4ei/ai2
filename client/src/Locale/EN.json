@@ -18,8 +18,9 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "Press to unmount chat prompt log.",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "My Activity",
     "CHAT_SIDE_MENU_GITHUB": "Github",
+    "CHAT_SIDE_MENU_C4EX": "BUY AAH",
     "CHAT_SIDE_MENU_SETTINGS": "Settings",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "Created by and for those minds that never satisfy their curiosity.",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI may provide inaccurate information.",
     "MOBILE_OPTIONS_SETTINGS": "Settings",
     "MOBILE_OPTIONS_ACTIVITY": "Activity",
     "MOBILE_OPTIONS_RESET_CHAT": "Reset Chat",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "You can contribute your grain of sand to continue to keep AIC4EI upright and developing.",
     "TOOLTIP_RESET_CHAT": "Clear current chat.",
     "TOOLTIP_MY_ACTIVITY": "View the log of your interactions with the AI.",
-    "TOOLTIP_GITHUB": "Visit the repository that hosts the AIC4EI source code on Github!"
+    "TOOLTIP_GITHUB": "Visit the repository that hosts the AIC4EI source code on Github!",
+    "TOOLTIP_C4EX": "Visit C4EX to buy AAH coins!"
 }

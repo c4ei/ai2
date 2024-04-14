@@ -12,8 +12,14 @@ wcs_do();
 front : port : 3333
 cd /home/dev/www/ai.c4ei.net
 node server.js
+pm2 start server.js --name ai.c4ei.net
 
 backend : port : 3334
 cd /home/dev/www/ai.c4ei.net/server
 yarn start
-
+----------------------------------------
+cd /home/dev/www/ai.c4ei.net/server
+pm2 start --name aiapi.c4ei.net_3334 npm -- run start 
+cd /home/dev/www/ai.c4ei.net
+pm2 start server.js --name ai.c4ei.net_3333
+----------------------------------------

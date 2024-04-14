@@ -9,6 +9,7 @@ import { ChatContext } from '../../../Services/Chat/Context';
 import { CoreContext } from '../../../Services/Core/Context';
 import StoredChatResponsesViewer from '../StoredChatResponsesViewer';
 import './SideMenu.css';
+import { HomeIcon } from 'evergreen-ui';
 
 const SideMenu = () => {
     const { UserExperience, HandleChatReset, ServerCommunication } = useContext(ChatContext);
@@ -28,12 +29,18 @@ const SideMenu = () => {
             Container: <StoredChatResponsesViewer />,
             DisableOnLoading: true
         }
-        // ,{
-        //     Title: L('CHAT_SIDE_MENU_GITHUB'),
-        //     TooltipTitle: L('TOOLTIP_GITHUB'),
-        //     Icon: FiGithub,
-        //     Callback: () => window.open(import.meta.env.VITE_SOFTWARE_REPOSITORY_LINK, '_blank')
-        // }
+        ,{
+            Title: L('CHAT_SIDE_MENU_GITHUB'),
+            TooltipTitle: L('TOOLTIP_GITHUB'),
+            Icon: HomeIcon,
+            Callback: () => window.open(import.meta.env.VITE_SOFTWARE_REPOSITORY_LINK, '_blank')
+        }
+        ,{
+            Title: L('CHAT_SIDE_MENU_C4EX'),
+            TooltipTitle: L('TOOLTIP_C4EX'),
+            Icon: HomeIcon,
+            Callback: () => window.open(import.meta.env.VITE_SOFTWARE_C4EX_LINK, '_blank')
+        }
     ]
 
     return (

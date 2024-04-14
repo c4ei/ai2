@@ -18,8 +18,9 @@
     "CHAT_SIDE_MENU_STORED_RESPONSE_UNMOUNT": "Appuie pour démonter le journal des invitations dans le chat.",
     "CHAT_SIDE_MENU_MY_ACTIVITY": "Mon activité",
     "CHAT_SIDE_MENU_GITHUB": "Github",
+    "CHAT_SIDE_MENU_C4EX": "BUY AAH",
     "CHAT_SIDE_MENU_SETTINGS": "Paramètres",
-    "CHAT_SIDE_MENU_BOTTOM_MSG": "Créé par et pour ces esprits qui ne satisfont jamais leur curiosité.",
+    "CHAT_SIDE_MENU_BOTTOM_MSG": "AI may provide inaccurate information.",
     "MOBILE_OPTIONS_SETTINGS": "Paramètres",
     "MOBILE_OPTIONS_ACTIVITY": "Activité",
     "MOBILE_OPTIONS_RESET_CHAT": "Réinitialiser le chat",
@@ -53,5 +54,6 @@
     "TOOLTIP_HEADER_DONATE": "Tu peux apporter ta contribution pour continuer à soutenir AiC4EI et son développement.",
     "TOOLTIP_RESET_CHAT": "Effacer le chat actuel.",
     "TOOLTIP_MY_ACTIVITY": "Afficher le journal de tes interactions avec l'IA.",
-    "TOOLTIP_GITHUB": "Visite le dépôt qui héberge le code source de AiC4EI sur Github !"
+    "TOOLTIP_GITHUB": "Visite le dépôt qui héberge le code source de AiC4EI sur Github !",
+    "TOOLTIP_C4EX": "Visit C4EX to buy AAH coins!"
 }
