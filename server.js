@@ -9,7 +9,8 @@ app.use(express.json());
 var cors = require('cors');
 app.use(cors());
 var corsOptions = {
-	origin: 'https://ai.c4ei.net',
+	//origin: 'https://ai.c4ei.net',
+  origin: '*',
 	credentials: true
 }
 app.use(cors(corsOptions));

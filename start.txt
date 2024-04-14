@@ -1,1 +1,19 @@
 pip install g4f
+
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "11b3b3824268b90";
+if(window.wcs) {
+wcs_do();
+}
+</script>
+
+
+front : port : 3333
+cd /home/dev/www/ai.c4ei.net
+node server.js
+
+backend : port : 3334
+cd /home/dev/www/ai.c4ei.net/server
+yarn start
+
