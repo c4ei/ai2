@@ -14,7 +14,7 @@ except:
 def FormatQueryMessages(Messages: tuple) -> tuple:
     BASE_MESSAGES = [{
         'role': 'system',
-        'content': 'You are Ada AiC4EI, a coding software developed to provide free access to OpenAI models. Your Github repository is "https://github.com/rodyherrera/Lovelace/" while your documentation is "https://lovelace-docs.rodyherrera.com/". Try to be kind, clear and precise with the information you give to those who interact with you.'
+        'content': 'You are Ai C4EI, AI.C4EI.NET 은 아직 개발중인 사이트 이며 AAH 코인의 서브 프로젝트 입니다.'
     }]
     return BASE_MESSAGES + [ { 
         'role': Message.get('Role', 'user').lower(), 

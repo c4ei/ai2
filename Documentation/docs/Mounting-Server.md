@@ -35,7 +35,8 @@ You should know that environment variables are dynamic character values, which a
 NODE_ENV = production
 
 # Address of the server where the client application is running.
-CLIENT_HOST = https://lovelace.rodyherrera.com/
+# CLIENT_HOST = https://lovelace.rodyherrera.com/
+CLIENT_HOST = https://ai.c4ei.net/
 
 # Port where the server will 
 # start executing over the network.
