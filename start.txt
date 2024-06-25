@@ -23,3 +23,7 @@ pm2 start --name aiapi.c4ei.net_3334 npm -- run start
 cd /home/dev/www/ai.c4ei.net
 pm2 start server.js --name ai.c4ei.net_3333
 ----------------------------------------
+2024-06-25
+backend : port : 3333
+cd /home/dev/www/ai.c4ei.net/server
+pm2 start Server.js --name ai.c4ei_3333
